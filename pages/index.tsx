@@ -6,14 +6,8 @@ import * as anchor from "@project-serum/anchor"
 
 const Home: NextPage = () => {
   const [balance, setBalance] = useState(0)
-<<<<<<< HEAD
   const [address, setAddress] = useState('')
   const [isExecutable, setIsExecutable] = useState(true);
-||||||| 4a8b1d2
-  const [address, setAddress] = useState('')
-=======
-  const [address, setAddress] = useState("")
->>>>>>> cdd77a8aae5dba1f77e8fe58bfe69f32060acbf3
 
   const addressSubmittedHandler = (address: string) => {
     try {
